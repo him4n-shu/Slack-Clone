@@ -36,12 +36,16 @@ header {
     display: flex;
     gap: 20px;
     font-size: 16px;
-    font-weight: 650;
+    font-weight: 660;
 }
 
 .navf span {
     cursor: pointer;
     position: relative;
+}
+
+.navf .navu:hover {
+    text-decoration: underline;
 }
 
 
@@ -63,7 +67,7 @@ header {
 
 .header2 .actions span {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 660;
     cursor: pointer;
 }
 
@@ -75,6 +79,10 @@ header {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.header2 .actions .signin:hover{
+    text-decoration: underline;
 }
 
 .header2 .actions button:first-of-type {
@@ -95,4 +103,115 @@ header {
 
 .header2 .actions button:last-of-type:hover {
     background-color: #4a154b;
+}
+
+.herosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herosection h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.herosection h1 span {
+    color: #a21bb1;
+}
+
+.herosection p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.herosection button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.herosection button:last-of-type {
+    background-color: transparent;
+    color: #611f69;
+    border: 1px solid #611f69;
+}
+
+.herosection button:first-of-type {
+    background-color: #611f69;
+    color: #fff;
+}
+
+.herosection button:last-of-type:hover {
+    color: #611f69;
+    
+}
+
+.herosection button:first-of-type:hover {
+    background-color: #4a154b;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.partners img {
+    object-fit: contain;
+}
+
+.partners .airbnb {
+    height: 100px;
+    width: 100px;
+}
+
+.partners .nasa {
+    height: 70px;
+    width: 70px;
+}
+
+.partners .uber {
+    height: 70px;
+    width: 70px;
+}
+
+.partners .target {
+    height: 40px;
+    width: 40px;
+}
+
+.partners .tnyt {
+    height: 100px;
+    width: 200px;
+}
+
+.partners .etsy {
+    height: 60px;
+    width: 60px;
+}
+
+.video-demo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto; 
+    max-width: 900px;
+    margin-top: 10px;
+}
+
+.video-demo video {
+    width: 900px;
+    height: 544px;
+    object-fit: cover;
+    border-radius: 8px; 
 }
